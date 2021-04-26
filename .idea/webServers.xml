@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7c5ceb9a-f324-4c6f-9df7-1c193d6a035e" name="Zhezhu" url="http://zhezhu.top">
+        <fileTransfer accessType="SFTP" host="146.56.200.184" port="22" sshConfigId="c4a19888-1dba-47aa-8742-a57d4572ef4a" sshConfig="Zhezhu">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

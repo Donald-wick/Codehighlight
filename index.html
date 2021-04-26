@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>代码高光 - code highlighter</title>
+    <link rel="stylesheet" href="css/simple-grid.min.css" />
+    <link rel="stylesheet" href="css/EnlighterJS.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/MooTools.min.js"></script>
+    <script src="js/EnlighterJS.min.js"></script>
+  </head>
+  <body>
+<!--  bg-->
+  <script type="text/javascript" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>　　
+    <div class="container main-wrapper">
+      <div class="row">
+          <div class="col-12 page-header">
+              <div>
+                <h1 class="page-title">Zhezhu-Hightlighter</h1>
+                <small>在 Word 文档中复制并粘贴您突出显示的代码</small>
+              </div>
+              <div class="links">
+                <a target="_blank" href="https://github.com/dandiws/highlightin"><span class="github-logo"></span> Github</a>
+              </div>
+          </div>
+        <div class="col-12">
+          <textarea class="code-input" id="code-input" rows="10" placeholder="粘贴代码到此处..."></textarea>
+        </div>
+        <div class="col-12">
+          <div class="actions">
+            <div class="action">
+              <div class="action-label">编程语言</div>
+              <select id="code-type"></select>
+            </div>
+            <div class="action">
+              <div class="action-label">样式</div>
+              <select id="theme-select"></select>
+            </div>
+            <div class="action">
+              <button id="highlight-btn">执行样式</button>
+            </div>
+            <div class="action">
+              <button id="highlight-btn-select">执行&选中</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div id="code-box"></div>
+        </div>
+        <div class="col-12">
+            <div class="footer">
+               maintained 2021.04 by Zhezhu
+              &copy; copyright 2020 &bullet; Dandi Wiratsangka S
+            </div>
+        </div>
+      </div>
+      <div class="copy-popup hide" id="copy-popup">
+        <div class="popup-inner">
+          ⌘ + C to copy
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
